@@ -1,0 +1,99 @@
+{
+    "_id" : ObjectId("6a0f5f23a5c64f18cf888b55"),
+    "title" : "ADMIN",
+    "claims" : [
+        "ALL"
+    ]
+}
+{
+    "_id" : ObjectId("6a0f5f23a5c64f18cf888b56"),
+    "title" : "BACKOFFICE-MEMBER",
+    "claims" : [
+        "BACKOFFICE_USER",
+        "USER_LIST",
+        "ROLE_LIST"
+    ]
+}
+{
+    "_id" : ObjectId("6a0f5f23a5c64f18cf888b57"),
+    "title" : "SUPPORT",
+    "claims" : [
+        "READING_TICKETS",
+        "ANSWERING_TICKETS"
+    ]
+}
+{
+    "_id" : ObjectId("6a0f6748a5c64f18cf888b58"),
+    "title" : "CUSTOMER",
+    "claims" : [
+        "BASIC_ACCESS",
+        "VIEW_PROFILE",
+        "UPDATE_PROFILE",
+        "CHANGE_PASSWORD",
+        "VIEW_ACTIVITY_LOG",
+        "VIEW_TRANSACTIONS",
+        "VIEW_ORDERS",
+        "CREATE_ORDER",
+        "CANCEL_ORDER",
+        "VIEW_INVOICES",
+        "VIEW_PRODUCTS",
+        "SEARCH_PRODUCTS",
+        "VIEW_SERVICES",
+        "CREATE_TICKET",
+        "VIEW_MY_TICKETS",
+        "REPLY_MY_TICKET",
+        "CLOSE_MY_TICKET",
+        "VIEW_NOTIFICATIONS",
+        "MARK_NOTIFICATION_READ",
+        "VIEW_WALLET_BALANCE",
+        "CHARGE_WALLET",
+        "WITHDRAW_WALLET",
+        "ENABLE_2FA",
+        "DISABLE_2FA",
+        "VIEW_DEVICES",
+        "REMOVE_DEVICE"
+    ]
+}
+{
+    "_id" : ObjectId("6a0f6748a5c64f18cf888b59"),
+    "title" : "PREMIUM_CUSTOMER",
+    "claims" : [
+        "BASIC_ACCESS",
+        "VIEW_PROFILE",
+        "UPDATE_PROFILE",
+        "CHANGE_PASSWORD",
+        "VIEW_ACTIVITY_LOG",
+        "VIEW_TRANSACTIONS",
+        "VIEW_ORDERS",
+        "CREATE_ORDER",
+        "CANCEL_ORDER",
+        "VIEW_INVOICES",
+        "VIEW_PRODUCTS",
+        "SEARCH_PRODUCTS",
+        "VIEW_SERVICES",
+        "CREATE_TICKET",
+        "VIEW_MY_TICKETS",
+        "REPLY_MY_TICKET",
+        "CLOSE_MY_TICKET",
+        "VIEW_NOTIFICATIONS",
+        "MARK_NOTIFICATION_READ",
+        "VIEW_WALLET_BALANCE",
+        "CHARGE_WALLET",
+        "WITHDRAW_WALLET",
+        "ENABLE_2FA",
+        "DISABLE_2FA",
+        "VIEW_DEVICES",
+        "REMOVE_DEVICE",
+        "VIEW_LOYALTY_POINTS",
+        "GET_DISCOUNTS"
+    ]
+}
+{
+    "_id" : ObjectId("6a0f6748a5c64f18cf888b5a"),
+    "title" : "GUEST",
+    "claims" : [
+        "VIEW_PRODUCTS",
+        "SEARCH_PRODUCTS",
+        "VIEW_SERVICES"
+    ]
+}
