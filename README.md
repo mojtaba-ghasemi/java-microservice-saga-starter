@@ -142,7 +142,7 @@ docker-compose logs saga-orchestrator-service
 
 ## Technology Stack
 
-- Spring Boot 3.2
+- Spring Boot 3.5
 - Spring Cloud Stream RabbitMQ
 - MongoDB 7+
 - RabbitMQ
